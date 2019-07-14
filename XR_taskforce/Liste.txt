@@ -1,0 +1,10 @@
+Liste 
+
+Server.py => wrote in python, use xmlrpclibserver to communicate with the malware, need to be in private server. 
+
+xmlrpclibserver.py => module for server.py
+
+xmlrpclibclient.py => module for XR.py
+
+XR.py => actual malware. Pyhan language, steal credentials, persistence in system, download/upload files to the server, only work for all version of windows
+
