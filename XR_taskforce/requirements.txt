@@ -1,0 +1,6 @@
+pypiwin32
+sqlite3
+psutil
+wmi
+urllib
+win32crypt
