@@ -91,7 +91,7 @@ def screenshot(targetinfo):
 
 def send_document(doc_tosent):
     logging.debug('send doc is used for: ' + doc_tosent)
-    server = xmlrpclibclient.ServerProxy("http://82.233.188.182:3000")
+    server = xmlrpclibclient.ServerProxy("http://localhost:3000")
     if os.path.isfile(doc_tosent):
         with open(doc_tosent, "rb") as handle:
             binary_data = xmlrpclibclient.Binary(handle.read())
